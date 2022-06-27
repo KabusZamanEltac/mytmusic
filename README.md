@@ -1,9 +1,9 @@
 
-# Müzik Bot 🇹🇷
-- [Müzik Bot](https://t.me/Myt_Music_Bot) Telegram Müzik Bot .
+# Müzik Bot 🇦🇿
+- [Müzik Bot](https://t.me/ASOMusicBot) Telegram Müzik Bot .
 
 # Support 
-- [Support](https://t.me/Hiraset) Telegram Support Grub .
+- [Qrup](https://t.me/WerabliAnlar) Telegram Support Grub .
 
 
 ### ⏳ Genel Komutlar
@@ -21,7 +21,7 @@
 
 
 ### Heroku Kurulum ⏳
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/01-Meyitzade-01/mytmusic)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/01-KabusZamanEltac/mytmusic)
 -
 
 <p align="center"><a href="https://cloud.okteto.com/deploy?repository=https://github.com/MehmetAtes21/Music"><img src="https://img.shields.io/badge/Deploy%20To%20Okteto-informational?style=for-the-badge&logo=Okteto" width="200" height="35.45"/></a></p>
