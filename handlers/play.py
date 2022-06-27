@@ -138,7 +138,7 @@ async def play(_, message: Message):
         await USER.get_chat(chid)
     except:
         await lel.edit(
-            f"<i>Merhaba {user.first_name}, yardımcı asistan bu sohbette değil, /katil eklemek için .</i>")
+            f"<i>Salam {user.first_name}, yardımcı asistan bu sohbette değil, /katil eklemek için .</i>")
         return
     
     audio = (message.reply_to_message.audio or message.reply_to_message.voice) if message.reply_to_message else None
@@ -260,7 +260,7 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("🔖 Myt müzik grup", url=f"https://t.me/HirasetTR"),
+                InlineKeyboardButton("🙋🏻‍♂️ 𝙰𝚂𝙾🇦🇿|𝚁𝙴𝚂𝙼𝚒", url=f"https://t.me/ASOresmi"),
             ],
         ]
     )
@@ -280,7 +280,7 @@ async def play(_, message: Message):
         position = await queues.put(message.chat.id, file=file_path)
         await message.reply_photo(
         photo="final.png",
-        caption="**▶️ Şarkı :** {}\n**⏳ Süre :** {} **dk**\n**✍🏻 Talep :** {}\n\n**🔖 Parça Sırası :** {}".format(
+        caption="**▶️ Mahnı :** {}\n**⏳ vaxt :** {} **dk**\n**✍🏻 Tələb :** {}\n\n**🔖 mahnı Sırası :** {}".format(
         title, duration, message.from_user.mention(), position
         ),
         reply_markup=keyboard)
@@ -300,7 +300,7 @@ async def play(_, message: Message):
         await message.reply_photo(
         photo="final.png",
         reply_markup=keyboard,
-        caption="**▶️ Şarkı :** {}\n**⏳ Süre :** {} min\n**✍🏻 Talep :** {}\n\n•> {}".format(
+        caption="**▶️ mahnı :** {}\n**⏳ Vaxt :** {} min\n**✍🏻 Tələb :** {}\n\n•> {}".format(
         title, duration, message.from_user.mention(), message.chat.title
         ), )
         os.remove("final.png")
