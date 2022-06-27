@@ -133,7 +133,7 @@ async def play(_, message: Message):
                     pass
                 except Exception:
                     await lel.edit(
-                        f"<b>🔵 Hata 🔵</b> \n\Merhaba {user.first_name}, Asistan, yoğun katılma istekleri nedeniyle grubunuza katılamadı. Asistanin grupta yasaklı olmadığından emin olun ve daha sonra yeniden deneyin!")
+                        f"<b>🔵 Hata 🔵</b> \n\Salam {user.first_name}, Asistan, yoğun katılma istekleri nedeniyle grubunuza katılamadı. Asistanin grupta yasaklı olmadığından emin olun ve daha sonra yeniden deneyin!")
     try:
         await USER.get_chat(chid)
     except:
@@ -198,7 +198,7 @@ async def play(_, message: Message):
             keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("🔖 Myt müzik grup", url=f"https://t.me/HirasetTR"),
+                InlineKeyboardButton("🙋🏻‍♂️ 𝙰𝚂𝙾🇦🇿|𝚁𝙴𝚂𝙼𝚒", url=f"https://t.me/ASOresmi"),
             ],
         ]
     )
