@@ -87,7 +87,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
     os.remove("background.png")
 
 
-# ==================================MytMüzik======================================================== 
+# ==================================ASOMusicBot======================================================== 
 @Client.on_callback_query(filters.regex("cls"))
 async def cls(_, query: CallbackQuery):
     await query.message.delete()
@@ -225,7 +225,7 @@ async def play(_, message: Message):
         file_path = await converter.convert(youtube.download(url))
     else:
         if len(message.command) < 2:
-            return await lel.edit("•> **Dinlemek istediğin şarkı nedir ?**")
+            return await lel.edit("•> **Qulaq asmaq istediyin mahnı nedir ?**")
         await lel.edit("•> **Lütfen bekleyiniz...**")
         query = message.text.split(None, 1)[1]
         # print(query)
